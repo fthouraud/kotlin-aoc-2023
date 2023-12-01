@@ -1,0 +1,27 @@
+output-reports:
+  active: false
+console-reports:
+  active: true
+naming:
+  InvalidPackageDeclaration:
+    active: false
+  FunctionMaxLength:
+    maximumFunctionNameLength: 50
+comments:
+  UndocumentedPublicClass:
+    active: false
+  UndocumentedPublicFunction:
+    active: false
+  UndocumentedPublicProperty:
+    active: false
+style:
+  MaxLineLength:
+    maxLineLength: 140
+  ForbiddenMethodCall:
+    active: false
+  MagicNumber:
+    excludes: ['*Test.kt']
+formatting:
+  autoCorrect: true
+  FunctionSignature:
+    active: false

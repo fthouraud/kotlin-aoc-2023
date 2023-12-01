@@ -1,0 +1,16 @@
+[versions]
+kotlin-gradle-plugin = "1.9.21"
+kotest = "5.8.0"
+detekt = "1.23.3"
+
+[libraries]
+kotest-runner = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+kotest-core = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
+kotest-property = { module = "io.kotest:kotest-property", version.ref = "kotest" }
+kotest-data = { module = "io.kotest:kotest-framework-datatest", version.ref = "kotest" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-gradle-plugin" }
+detekt-compiler-plugin = { module = "io.github.detekt.gradle.compiler-plugin:io.github.detekt.gradle.compiler-plugin.gradle.plugin", version.ref = "detekt" }
+detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
+
+[bundles]
+kotest = ["kotest-runner", "kotest-core", "kotest-property", "kotest-data"]

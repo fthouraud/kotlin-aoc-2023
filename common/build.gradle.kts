@@ -1,7 +1,7 @@
 plugins {
-    id("me.fth.aoc23.kotlin-common-conventions")
+  id("me.fth.aoc23.kotlin-common-conventions")
 }
 
 dependencies {
-    testImplementation(libs.bundles.kotest)
+  testImplementation(libs.bundles.kotest)
 }

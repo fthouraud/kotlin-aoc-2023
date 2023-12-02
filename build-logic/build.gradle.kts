@@ -1,13 +1,13 @@
 plugins {
-    `kotlin-dsl`
+  `kotlin-dsl`
 }
 
 repositories {
-    gradlePluginPortal()
+  gradlePluginPortal()
 }
 
 dependencies {
-    implementation(libs.kotlin.gradle.plugin)
-    implementation(libs.detekt.compiler.plugin)
-    implementation(libs.detekt.formatting)
+  implementation(libs.kotlin.gradle.plugin)
+  implementation(libs.detekt.compiler.plugin)
+  implementation(libs.detekt.formatting)
 }

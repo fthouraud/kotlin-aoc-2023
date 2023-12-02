@@ -25,3 +25,5 @@ formatting:
   autoCorrect: true
   FunctionSignature:
     active: false
+  Indentation:
+    indentSize: 2

@@ -23,6 +23,8 @@ style:
     excludes: ['*Test.kt']
 formatting:
   autoCorrect: true
+  MaximumLineLength:
+    maxLineLength: 140
   FunctionSignature:
     active: false
   Indentation:
